@@ -1,0 +1,9 @@
+Add_New_Pet_Btn: div > div > a:nth-child(4)
+New_Pet_Txt: div > h2
+Pet_Name: input[id='name']
+Birth_Date: input[id='birthDate']
+Pet_Type: //select[@id='type']
+Name_Pet_Txt: //tbody/tr/td[1]/dl/dd[1]
+Pet_Birth_Txt: //tbody/tr/td[1]/dl/dd[2]
+Pet_Type_Txt: //tbody/tr/td[1]/dl/dd[3]
+Submit_Btn: .col-sm-offset-2 > button

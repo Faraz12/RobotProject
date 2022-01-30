@@ -1,0 +1,3 @@
+Veterian_Txt:  //a[@title='veterinarians']
+Find_Owner_Txt: ul > li:nth-child(2) > a
+Welcome_Image: .img-responsive

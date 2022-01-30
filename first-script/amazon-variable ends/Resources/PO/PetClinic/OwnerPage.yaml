@@ -1,0 +1,13 @@
+Add_Owner_Btn: //*[@id='search-owner-form']//a
+Submit_Owner_Btn: //*[@id='add-owner-form']//button
+Find_Owner_Btn:  div:nth-child(2) > div > button
+Owner_Information_Txt: div > h2:nth-child(1)
+Name_Txt:  table:nth-child(2) > tbody > tr:nth-child(1) > td > b
+Address_Txt: table:nth-child(2) > tbody > tr:nth-child(2) > td
+City_Txt: tbody > tr:nth-child(3)  > td
+Telephone_Txt: tbody > tr:nth-child(4)  > td
+Input_First_Name: input[id='firstName']
+Input_Last_Name: input[id='lastName']
+Input_Address: input[id='address']
+Input_City: input[id='city']
+Input_Telephone: input[id='telephone']

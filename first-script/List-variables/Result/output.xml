@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.6.5 on win32)" generated="20200928 19:02:37.957" rpa="false">
+<suite id="s1" name="List" source="C:\Development\robot-script\first-script\List-variables\Test\list.robot">
+<test id="s1-t1" name="variables demostration">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>@{My_Variable}[0]</arg>
+</arguments>
+<msg timestamp="20200928 19:02:37.981" level="WARN">Accessing variable items using '@{My_Variable}[0]' syntax is deprecated. Use '${My_Variable}[0]' instead.</msg>
+<msg timestamp="20200928 19:02:37.985" level="INFO">My name</msg>
+<status status="PASS" starttime="20200928 19:02:37.981" endtime="20200928 19:02:37.985"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>@{My_Variable}[1]</arg>
+</arguments>
+<msg timestamp="20200928 19:02:37.985" level="WARN">Accessing variable items using '@{My_Variable}[1]' syntax is deprecated. Use '${My_Variable}[1]' instead.</msg>
+<msg timestamp="20200928 19:02:37.985" level="INFO">Fraz khan</msg>
+<status status="PASS" starttime="20200928 19:02:37.985" endtime="20200928 19:02:37.985"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>@{My_Variable}[2]</arg>
+</arguments>
+<msg timestamp="20200928 19:02:37.985" level="WARN">Accessing variable items using '@{My_Variable}[2]' syntax is deprecated. Use '${My_Variable}[2]' instead.</msg>
+<msg timestamp="20200928 19:02:37.985" level="INFO">Age eww</msg>
+<status status="PASS" starttime="20200928 19:02:37.985" endtime="20200928 19:02:37.985"></status>
+</kw>
+<status status="PASS" starttime="20200928 19:02:37.981" endtime="20200928 19:02:37.985" critical="yes"></status>
+</test>
+<test id="s1-t2" name="variables demostration 2">
+<kw name="Create List" library="BuiltIn">
+<doc>Returns a list containing given items.</doc>
+<arguments>
+<arg>Item1</arg>
+<arg>Item2</arg>
+<arg>Item3</arg>
+</arguments>
+<assign>
+<var>@{my_list_variable}</var>
+</assign>
+<msg timestamp="20200928 19:02:37.989" level="INFO">@{my_list_variable} = [ Item1 | Item2 | Item3 ]</msg>
+<status status="PASS" starttime="20200928 19:02:37.989" endtime="20200928 19:02:37.989"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>@{my_list_variable}[0]</arg>
+</arguments>
+<msg timestamp="20200928 19:02:37.989" level="WARN">Accessing variable items using '@{my_list_variable}[0]' syntax is deprecated. Use '${my_list_variable}[0]' instead.</msg>
+<msg timestamp="20200928 19:02:37.989" level="INFO">Item1</msg>
+<status status="PASS" starttime="20200928 19:02:37.989" endtime="20200928 19:02:37.989"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>@{my_list_variable}[1]</arg>
+</arguments>
+<msg timestamp="20200928 19:02:37.989" level="WARN">Accessing variable items using '@{my_list_variable}[1]' syntax is deprecated. Use '${my_list_variable}[1]' instead.</msg>
+<msg timestamp="20200928 19:02:37.989" level="INFO">Item2</msg>
+<status status="PASS" starttime="20200928 19:02:37.989" endtime="20200928 19:02:37.989"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>@{my_list_variable}[2]</arg>
+</arguments>
+<msg timestamp="20200928 19:02:37.989" level="WARN">Accessing variable items using '@{my_list_variable}[2]' syntax is deprecated. Use '${my_list_variable}[2]' instead.</msg>
+<msg timestamp="20200928 19:02:37.989" level="INFO">Item3</msg>
+<status status="PASS" starttime="20200928 19:02:37.989" endtime="20200928 19:02:37.989"></status>
+</kw>
+<status status="PASS" starttime="20200928 19:02:37.989" endtime="20200928 19:02:37.989" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200928 19:02:37.961" endtime="20200928 19:02:37.993"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" id="s1" name="List">List</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200928 19:02:37.981" level="WARN">Accessing variable items using '@{My_Variable}[0]' syntax is deprecated. Use '${My_Variable}[0]' instead.</msg>
+<msg timestamp="20200928 19:02:37.985" level="WARN">Accessing variable items using '@{My_Variable}[1]' syntax is deprecated. Use '${My_Variable}[1]' instead.</msg>
+<msg timestamp="20200928 19:02:37.985" level="WARN">Accessing variable items using '@{My_Variable}[2]' syntax is deprecated. Use '${My_Variable}[2]' instead.</msg>
+<msg timestamp="20200928 19:02:37.989" level="WARN">Accessing variable items using '@{my_list_variable}[0]' syntax is deprecated. Use '${my_list_variable}[0]' instead.</msg>
+<msg timestamp="20200928 19:02:37.989" level="WARN">Accessing variable items using '@{my_list_variable}[1]' syntax is deprecated. Use '${my_list_variable}[1]' instead.</msg>
+<msg timestamp="20200928 19:02:37.989" level="WARN">Accessing variable items using '@{my_list_variable}[2]' syntax is deprecated. Use '${my_list_variable}[2]' instead.</msg>
+</errors>
+</robot>
